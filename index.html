@@ -154,8 +154,8 @@
   .offices h3 { font-size: 11px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: #9a9da3; margin-bottom: 8px; }
   .offices p, .offices a { color: var(--cream); font-size: 15.5px; text-decoration: none; }
   .offices a:hover { color: var(--accent); }
-  .qr { display: flex; gap: 16px; align-items: center; }
-  .qr img { width: 104px; height: 104px; image-rendering: pixelated; background: #fff; padding: 8px; border-radius: 12px; }
+  .qr { grid-column: 1 / -1; display: flex; gap: 20px; align-items: center; }
+  .qr img { width: 160px; height: 160px; background: #fff; border-radius: 12px; } /* dense code: keep it large enough for phone cameras */
   .qr p { font-size: 13.5px; color: #9a9da3; }
 
   footer { background: var(--cream); padding: 30px 0 40px; font-size: 13.5px; color: var(--muted); }
@@ -377,7 +377,7 @@
           <div><h3>Dhaka office</h3><p>Atlanta Trade Center, Level-6<br>Plot-1, Road-1/A, Sector-4<br>Uttara Model Town, Dhaka, Bangladesh</p></div>
           <div><h3>Phone</h3><p><a href="tel:+8801332113355">+88 013 3211 3355</a></p></div>
           <div><h3>Email</h3><p><a href="mailto:info@cpcl-bd.com">info@cpcl-bd.com</a></p></div>
-          <div class="qr"><img src="images/qr.png" alt="QR code from the CPCL brochure"><p>Scan to connect with CPCL</p></div>
+          <div class="qr"><img src="images/qr.png" alt="CPCL QR code"><p>Scan to connect with CPCL</p></div>
         </div>
       </div>
     </div>
